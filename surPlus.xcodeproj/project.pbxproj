@@ -12,7 +12,7 @@
 		4F364770226FC65300310963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F36476E226FC65300310963 /* Main.storyboard */; };
 		4F364772226FC65600310963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F364771226FC65600310963 /* Assets.xcassets */; };
 		4F364775226FC65600310963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F364773226FC65600310963 /* LaunchScreen.storyboard */; };
-		4FDB8149226FDC010013A02C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FDB8148226FDC010013A02C /* GoogleService-Info.plist */; };
+		4F6D935F227650420010F882 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6D935E227650420010F882 /* TabBarController.swift */; };
 		4FDB814D226FF1650013A02C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB814C226FF1640013A02C /* RegisterViewController.swift */; };
 		4FDB814F226FF1EB0013A02C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB814E226FF1EB0013A02C /* LogInViewController.swift */; };
 		4FDB81B022749E600013A02C /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDB81AF22749E600013A02C /* HomeTableViewController.swift */; };
@@ -28,7 +28,8 @@
 		4F36476F226FC65300310963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F364771226FC65600310963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F364774226FC65600310963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4F364776226FC65600310963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
+		4F6D935E227650420010F882 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		4FBC553622762FB0009C65E5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FDB8148226FDC010013A02C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4FDB814C226FF1640013A02C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = ../RegisterViewController.swift; sourceTree = "<group>"; };
 		4FDB814E226FF1EB0013A02C /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LogInViewController.swift; path = ../LogInViewController.swift; sourceTree = "<group>"; };
@@ -84,7 +85,7 @@
 				4FDB81B42274A3D70013A02C /* View */,
 				4F364771226FC65600310963 /* Assets.xcassets */,
 				4FDB8148226FDC010013A02C /* GoogleService-Info.plist */,
-				4F364776226FC65600310963 /* Info.plist */,
+				4FBC553622762FB0009C65E5 /* Info.plist */,
 			);
 			path = surPlus;
 			sourceTree = "<group>";
@@ -92,6 +93,7 @@
 		4FDB81B12274A1B70013A02C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4F6D935E227650420010F882 /* TabBarController.swift */,
 				4F36476A226FC65300310963 /* AppDelegate.swift */,
 				4F36476C226FC65300310963 /* ViewController.swift */,
 				4FDB81AF22749E600013A02C /* HomeTableViewController.swift */,
@@ -189,7 +191,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F364775226FC65600310963 /* LaunchScreen.storyboard in Resources */,
-				4FDB8149226FDC010013A02C /* GoogleService-Info.plist in Resources */,
 				4F364772226FC65600310963 /* Assets.xcassets in Resources */,
 				4F364770226FC65300310963 /* Main.storyboard in Resources */,
 			);
@@ -263,6 +264,7 @@
 				4FDB814F226FF1EB0013A02C /* LogInViewController.swift in Sources */,
 				4FDB814D226FF1650013A02C /* RegisterViewController.swift in Sources */,
 				4F36476D226FC65300310963 /* ViewController.swift in Sources */,
+				4F6D935F227650420010F882 /* TabBarController.swift in Sources */,
 				4F36476B226FC65300310963 /* AppDelegate.swift in Sources */,
 				4FDB81B022749E600013A02C /* HomeTableViewController.swift in Sources */,
 			);

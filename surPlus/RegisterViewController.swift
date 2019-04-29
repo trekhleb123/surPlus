@@ -29,7 +29,7 @@ class RegisterViewController: UIViewController {
             } else {
                 //success
                 print("Registration Successfull")
-                self.performSegue(withIdentifier: "goToHome", sender: self)
+                self.performSegue(withIdentifier: "goToHomeFromRegister", sender: self)
             }
         }
     }
