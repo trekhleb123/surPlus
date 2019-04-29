@@ -280,6 +280,7 @@
                                             <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
+                                            <action selector="logInPressed:" destination="ZvW-bX-5Tm" eventType="touchUpInside" id="mej-Nc-mRD"/>
                                             <segue destination="Cvc-ER-Rha" kind="show" identifier="goToHomeFromLogIn" id="mth-6o-pCx"/>
                                         </connections>
                                     </button>
@@ -291,7 +292,6 @@
                     </view>
                     <connections>
                         <outlet property="emailTextField" destination="O3Q-rS-5BF" id="jbV-mz-Udf"/>
-                        <outlet property="logInButtonPressed" destination="1P5-Eu-8BW" id="cg0-3X-Rka"/>
                         <outlet property="passwordTextField" destination="o9y-wI-nzj" id="Qhw-zW-J9P"/>
                     </connections>
                 </viewController>
@@ -584,6 +584,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="G6b-TW-Azy"/>
-        <segue reference="K8T-oP-YiQ"/>
+        <segue reference="mth-6o-pCx"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -16,7 +16,18 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     
     
-    @IBOutlet weak var logInButtonPressed: UIButton!
+  
+    @IBAction func logInPressed(_ sender: Any) {
+        Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
+            if error != nil {
+                print(error!)
+            } else {
+                print("Log in successful!")
+                
+                self.performSegue(withIdentifier: "goToHomeFromLogIn", sender: self)
+            }
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
